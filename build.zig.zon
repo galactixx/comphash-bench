@@ -1,0 +1,18 @@
+.{
+    .name = .comphash_benchmarks,
+    .version = "0.1.0",
+    .dependencies = .{
+        .comphash = .{
+            .url = "git+https://github.com/galactixx/comphash?ref=v0.3.0#7e7ebd171f9075ee82d516a2770143816bbcfd99",
+            .hash = "comphash-0.3.0-OPbZSrZVAADBVHuSnEm9_9OMEidFZD-VLVV_5KHq8H4j",
+        },
+    },
+    .minimum_zig_version = "0.14.0",
+    .fingerprint = 0x412e4e8c9986a8b0,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
