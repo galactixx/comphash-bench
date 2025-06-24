@@ -25,14 +25,7 @@ Each benchmark:
 - Includes warmup runs to ensure consistent timing
 - Measures total duration and average time per lookup
 - Tests with representative keys from each dataset
-
-## Key Features
-
-- **Zero Runtime Allocations** - Both implementations are compile-time generated with no runtime memory allocation
-- **Immutable Data Structures** - All maps are immutable, ensuring thread safety and predictable performance
-- **O(1) Lookup Complexity** - Both implementations provide constant-time string key lookups
-- **Comprehensive Metrics** - Detailed performance reporting including total duration, iterations, and per-call averages
-
+- 
 ## Usage
 
 ```bash
