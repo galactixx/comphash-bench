@@ -119,7 +119,6 @@ fn runStringMapBenchmark(map: std.StaticStringMap(u32), size: usize, numbers: []
 // for 100 and 1000 items.
 pub fn main() !void {
     const numbers = try randomNumbers(std.heap.page_allocator);
-    std.debug.print("numbers: {any}\n", .{numbers[0..15]});
 
     // Benchmark get() on the 100-item map (comptime map)
     runComptimeMapBenchmark(map_one_hundred, 100, numbers);
