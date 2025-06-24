@@ -1,4 +1,4 @@
-# comphash-benchmarks
+# comphash-bench
 
 Simple benchmarks that compares the performance of the `comphash` library's `ComptimeHashMap` against Zig's standard library `std.StaticStringMap` for string-keyed lookups.
 
