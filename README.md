@@ -25,7 +25,7 @@ Each benchmark:
 - Includes warmup runs to ensure consistent timing
 - Measures total duration and average time per lookup
 - Tests with representative keys from each dataset
-- 
+  
 ## Usage
 
 ```bash
