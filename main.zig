@@ -36,7 +36,7 @@ const map_one_thousand = blk: {
 };
 
 const map_two_thousand = blk: {
-    @setEvalBranchQuota(30_000_000);
+    @setEvalBranchQuota(20_000_000);
     break :blk Map.init(two_thousand);
 };
 
@@ -53,7 +53,7 @@ const string_map_one_thousand = blk: {
 };
 
 const string_map_two_thousand = blk: {
-    @setEvalBranchQuota(30_000_000);
+    @setEvalBranchQuota(20_000_000);
     break :blk std.StaticStringMap(u32).initComptime(two_thousand);
 };
 
